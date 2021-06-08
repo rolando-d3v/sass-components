@@ -1,0 +1,19 @@
+// @import "../../../sass/index.scss";
+
+// HEA  = HEADER
+// SHE  = SUB-HEADER
+// SID  = SIDERBAR
+// MAI  = MAIN
+
+
+
+.layout-youtube {
+  display: grid;
+  grid-template-columns: 240px auto;
+  grid-template-rows: 56px 56px auto;
+  grid-template-areas:
+  "HEA HEA "
+  "SID SHE "
+  "SID MAI ";
+  height: 100vh;
+}
