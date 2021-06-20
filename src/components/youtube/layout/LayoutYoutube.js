@@ -11,7 +11,7 @@ export default function LayoutYoutube() {
             <Header/>
             <Sidebar/>
             <SubHeader/>
-            {/* <Main/> */}
+            <Main/>
         </div>
     )
 }

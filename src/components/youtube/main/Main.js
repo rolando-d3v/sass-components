@@ -1,11 +1,10 @@
-
-import React from 'react'
-import './main.scss'
+import React from "react";
+import "./main.scss";
 
 export default function Main() {
-    return (
-        <main className='main-youtube'  >
-            
-        </main>
-    )
+  return (
+    <main className="main-youtube">
+     
+    </main>
+  );
 }
